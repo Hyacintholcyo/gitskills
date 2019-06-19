@@ -1,3 +1,2 @@
 # gtiskills
-Creating a new branch is quick.
-First failure.
+Creating a new branch is quick & simple.
