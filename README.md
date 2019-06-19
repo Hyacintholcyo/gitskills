@@ -1,3 +1,3 @@
 # gtiskills
 Creating a new branch is quick and simple.
-That's right.
+That's all right.
