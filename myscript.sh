@@ -1,6 +1,4 @@
 #!/bin/sh
 a="hello world"
-echo "A is:"
-echo $a
-num=2
-echo "this is the ${num}nd"
+echo "A is:"$a
+grep "w" learning.txt | grep "a"
