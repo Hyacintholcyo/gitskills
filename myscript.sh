@@ -1,6 +1,8 @@
 #!/bin/sh
-if [ -f "learning.txt" ]; then 
-	echo "yes" 
-else 
-	echo "no" 
-fi
+case "$1" in 
+	"1"*) 
+	echo "first" ;;
+	"2"*) 
+	echo "second" ;;
+	*) echo "ERROR" ;;
+esac
