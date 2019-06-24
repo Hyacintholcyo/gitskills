@@ -1,8 +1,7 @@
 #!/bin/sh
-case "$1" in 
-	"1"*) 
-	echo "first" ;;
-	"2"*) 
-	echo "second" ;;
-	*) echo "ERROR" ;;
-esac
+echo "What is your favourite OS?" 
+select var in "Linux" "Qnu Hurd" "HreeBSD" "Yther"; do 
+	break 
+done 
+echo "You have selected $var"
+	
