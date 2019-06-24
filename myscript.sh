@@ -1,4 +1,6 @@
 #!/bin/sh
-a="hello world"
-echo "A is:"$a
-grep "w" learning.txt | grep "a"
+if [ -f "learning.txt" ]; then 
+	echo "yes" 
+else 
+	echo "no" 
+fi
