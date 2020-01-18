@@ -1,6 +1,7 @@
 hellow-world
 wait...
 another
-
+add fork 1
 something merged
 fork a added
+fork b added
